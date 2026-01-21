@@ -1,0 +1,39 @@
+.section {
+  background-color: #ffffff;
+}
+
+.box {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 29px;
+  font-weight: 600;
+  margin-bottom: 42px;
+  color: #0b1023;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  align-items: start;
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

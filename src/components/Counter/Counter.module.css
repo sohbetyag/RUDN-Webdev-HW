@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #fed84c;
+  color: #2e363e;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #2e363e;
+  color: #ffffff;
+}
+
+.num {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.total {
+  margin-left: 8px;
+  font-weight: 600;
+  color: #0b1023;
+}
